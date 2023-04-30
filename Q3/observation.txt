@@ -1,0 +1,3 @@
+I explored and experimented with different model architectures. 
+After exploration decided with base-model as ResNet50 with additional 1 Dense layer. 
+Initially the validation accuracy was coming around 0.94. Post adding L2-regularization on the final output layer, achieved a accuracy of 0.98 for train and val.
